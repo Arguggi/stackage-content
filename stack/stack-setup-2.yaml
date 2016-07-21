@@ -1,5 +1,5 @@
-stack:		
-    linux64:		
+stack:
+    linux64:
         0.1.6.0:
             url: "https://github.com/commercialhaskell/stack/releases/download/v0.1.6.0/stack-0.1.6.0-linux-x86_64.tar.gz"
             content-length: 7148665
@@ -109,7 +109,7 @@ ghc:
             content-length: 91852904
             sha1: c32eff3ecb16eeb9a8682ae2222574a6d1a68bc1
         7.10.3:
-            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3b-x86_64-deb7-linux.tar.xz"
+            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-7.10.3-release/ghc-7.10.3-x86_64-deb8-linux.tar.xz"
             content-length: 89687224
             sha1: dbee82a232536f50f5211664f152b2bf36006ac4
         8.0.1:
@@ -291,7 +291,7 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-portbld-freebsd.tar.xz"
             content-length: 112094652
             sha1: 9ce6836d5e6f06fa0f3099cee39a9ab4bdb291d4
-            
+
     # Untested so far, see: https://github.com/commercialhaskell/stack/issues/416#issuecomment-115553835
     openbsd64:
         7.8.3:
@@ -308,7 +308,7 @@ ghc:
             url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.0.1-release/ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz"
             content-length: 100619184
             sha1: 7ed707de43456ddc4534f68a17ef58b7099e9a59
-            
+
     # ARMv7 support is experimental
     linux-armv7:
         7.10.2:
